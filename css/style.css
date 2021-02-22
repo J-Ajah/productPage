@@ -1,10 +1,9 @@
 body{
     padding: 0px;
     margin: 0px;
-    
-  
 background-image: linear-gradient(145deg, rgb(13, 60, 122) 80%, rgba(80, 2, 223, 0) 0%, rgba(92, 146, 196,0.4) 100%);
 }
+
 .Container{
     width: 100vw;
     height: 100vh;
@@ -27,13 +26,10 @@ ul li{
     font-weight: bold;
     border: solid 0px black;
     padding: 7px;
-    
     outline: none;
 }
-#button a:hover{
-    background-color: rgb(10, 108, 236);
-}
-li  a:hover{
+
+li a:hover{
     background-color: rgb(13, 60, 122);
     border: solid 0px rgb(10, 9, 9);
     box-shadow: 2px 3px 5px black;
@@ -41,10 +37,8 @@ li  a:hover{
 li a{
     text-decoration: none;
     color: blanchedalmond;
- 
     padding: 10px;
-    border-radius: 30px;
-
+    box-shadow: .5px .5px 1px black;
 }
 #Main{
     display: flex;
@@ -61,6 +55,7 @@ li a{
     border-radius: 5px;
     margin: 20px;
 }
+
 #product{
     width:100%;
     border: solid 0px black;
@@ -78,10 +73,9 @@ li a{
 
 h1{
     color:rgb(7, 6, 6);
-    font-family: Helvetica;
-    font-size: 60px;
+    font-size: 70px;
     box-sizing: border-box;
-    text-shadow: 1px 1px .5px #fcf5f5;
+    text-shadow: 1px 1px .1px #b9b5b5;
 }
 #text-style{
     color: white ;
@@ -100,7 +94,6 @@ h2{
     color: white;
     border-radius: 30px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color:rgb(23, 45, 243);
     cursor: pointer;
     box-shadow: 2px 2px 5px black;
     outline: none;
@@ -109,8 +102,9 @@ h2{
 }
 
 
+
+
 .productCard{
-  
     border: solid 0px black;
     height: 380px;
     width: 100%;
@@ -150,6 +144,7 @@ h2{
     top: 15px;
 }
 
+
 div button{
     width:300px;
     height: 50px;
@@ -163,10 +158,17 @@ div button{
     background-color: rgb(1, 66, 116);
     outline: none;
     color: white;
+    box-shadow: 1px 2px 1px rgb(226, 225, 225);
 }
+button:hover{
+    background-color: rgb(40, 18, 243) !important;
+
+}
+
 #btn-one{
 margin-left: 40px;
 } 
+
 #btn-two{
     margin-left: 15px;
 }
